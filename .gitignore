@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Node / frontend build
+frontend/node_modules/
+frontend/dist/
+
+# Runtime data (generated on first start)
+data/*.db
+data/*.db-*
+data/report_email_state.json
+
+# Environment / secrets
+.env
+.env.local
+.env*.local
+w.env
+
+# Blender temporary files
+*.blend1
+*.blend@
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.cache/
+
+# Android build output and downloaded APKs
+downloads/*
+!downloads/health-twin.apk
+mobile/android/.gradle/
+mobile/android/build/
+mobile/android/app/build/
+mobile/android/local.properties
+*.apk
+!downloads/health-twin.apk
+!frontend/public/downloads/health-twin.apk
+frontend/tsconfig.tsbuildinfo
+
+# Vendored binaries (HAPI FHIR server WAR, downloaded by scripts/setup_hapi.py)
+/vendor/
+
+# Runtime / HAPI FHIR data
+var/
+
+# Synthea generated output
+data/synthea/output/
+
+# InsForge & AI agent skills
+.insforge
+.agent
+.agents
+.augment
+.claude
+.cline
+.github/copilot*
+.kilocode
+.qoder
+.qwen
+.roo
+.trae
+.windsurf
